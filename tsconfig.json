@@ -4,6 +4,8 @@
     "module": "nodenext",
     "target": "esnext",
     "types": [],
+    "rootDir": "src",
+    "outDir": "dist",
     "declaration": true,
     "strict": true,
     "isolatedModules": true,

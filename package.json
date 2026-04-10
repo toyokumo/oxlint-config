@@ -14,11 +14,23 @@
   },
   "type": "module",
   "sideEffects": false,
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
+    "build": "tsc",
     "lint": "oxlint",
     "format": "oxfmt --write",
-    "test": "node --test 'tests/**/*.test.js'"
+    "test": "node --test 'tests/**/*.test.js'",
+    "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
     "oxfmt": "^0.44.0",
