@@ -16,7 +16,8 @@
   "sideEffects": false,
   "main": "index.js",
   "scripts": {
-    "lint": ""
+    "lint": "",
+    "test": "node --test 'tests/**/*.test.js'"
   },
   "devDependencies": {
     "oxfmt": "^0.44.0",
