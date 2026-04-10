@@ -1,7 +1,6 @@
 import type { OxlintOverride } from 'oxlint';
 
 export default {
-  plugins: ['eslint', 'oxc', 'typescript', 'react', 'jsx-a11y'],
   files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
   rules: {
     'react/display-name': 'error',

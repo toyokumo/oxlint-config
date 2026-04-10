@@ -1,7 +1,6 @@
 import type { OxlintOverride } from 'oxlint';
 
 export default {
-  plugins: ['eslint', 'oxc', 'typescript'],
   files: ['**/*.ts', '**/*.tsx'],
   rules: {
     'constructor-super': 'off',

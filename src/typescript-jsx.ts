@@ -10,5 +10,4 @@ export default {
       },
     ],
   },
-  plugins: ['import'],
 } as OxlintOverride;

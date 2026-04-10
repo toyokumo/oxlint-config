@@ -1,7 +1,7 @@
 import type { OxlintConfig } from 'oxlint';
 
 export const baseConfig: OxlintConfig = {
-  plugins: ['eslint', 'import', 'oxc'],
+  plugins: ['eslint', 'import', 'oxc', 'typescript', 'nextjs', 'react', 'jsx-a11y'],
   options: {
     typeAware: true,
     reportUnusedDisableDirectives: 'error',

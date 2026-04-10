@@ -1,7 +1,6 @@
 import type { OxlintOverride } from 'oxlint';
 
 export default {
-  plugins: ['eslint', 'oxc', 'typescript', 'nextjs'],
   files: ['**/*.ts', '**/*.tsx'],
   rules: {
     'nextjs/google-font-display': 'warn',
