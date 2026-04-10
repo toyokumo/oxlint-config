@@ -15,10 +15,10 @@ pnpm add -D @toyokumo/oxlint-config oxlint
 
 ```typescript
 import {
-  baseConfig,        // Base rules (eslint, import, oxc plugins)
-  typescriptConfig,  // TypeScript override (*.ts, *.tsx)
-  reactConfig,       // React + jsx-a11y override
-  nextConfig,        // Next.js override
+  baseConfig, // Base rules (eslint, import, oxc plugins)
+  typescriptConfig, // TypeScript override (*.ts, *.tsx)
+  reactConfig, // React + jsx-a11y override
+  nextConfig, // Next.js override
   typescriptJsxConfig, // TypeScript JSX override (*.tsx)
 } from '@toyokumo/oxlint-config';
 ```
@@ -27,13 +27,7 @@ import {
 
 ```typescript
 import { defineConfig } from 'oxlint';
-import {
-  baseConfig,
-  typescriptConfig,
-  reactConfig,
-  nextConfig,
-  typescriptJsxConfig,
-} from '@toyokumo/oxlint-config';
+import { baseConfig, typescriptConfig, reactConfig, nextConfig, typescriptJsxConfig } from '@toyokumo/oxlint-config';
 
 export default defineConfig({
   ...baseConfig,
