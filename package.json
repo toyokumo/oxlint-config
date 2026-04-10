@@ -1,0 +1,33 @@
+{
+  "name": "@toyokumo/oxlint-config",
+  "version": "0.1.0",
+  "description": "oxlint rule set for Toyokumo",
+  "keywords": [
+    "oxlint"
+  ],
+  "homepage": "https://github.com/toyokumo/oxlint-config",
+  "license": "Apache-2.0",
+  "author": "Toyokumo, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toyokumo/oxlint-config.git"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "index.js",
+  "scripts": {
+    "lint": ""
+  },
+  "devDependencies": {
+    "oxfmt": "^0.44.0",
+    "oxlint": "^1.59.0",
+    "oxlint-tsgolint": "^0.20.0",
+    "typescript": "^6.0.2"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.59.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
