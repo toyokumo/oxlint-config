@@ -1,9 +1,8 @@
 # oxlint-config
 
 [![npm version](https://badge.fury.io/js/%40toyokumo%2Foxlint-config.svg)](https://badge.fury.io/js/%40toyokumo%2Foxlint-config)
-![CI](https://github.com/toyokumo/oxlint-config/workflows/CI/badge.svg?branch=main)
 
-An oxlint rule set for Toyokumo.
+The oxlint rule set for Toyokumo.
 
 ## Usage
 
