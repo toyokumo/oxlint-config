@@ -189,6 +189,11 @@ export const baseConfig: OxlintConfig = {
     ],
     yoda: 'error',
 
+    // Rules that are planned for oxlint but not yet implemented.
+    // See https://github.com/oxc-project/oxc/issues/479
+    // 'no-unreachable-loop': 'error',
+    // 'one-var': ['error', 'never'],
+
     // import plugin rules
     'import/named': 'error',
     'import/namespace': 'error',
@@ -197,5 +202,33 @@ export const baseConfig: OxlintConfig = {
     'import/no-named-as-default': 'warn',
     'import/no-named-as-default-member': 'warn',
     'import/no-duplicates': 'warn',
+
+    // Import rules that are planned for oxlint but not yet implemented.
+    // See https://github.com/oxc-project/oxc/issues/1117
+    // 'import/no-extraneous-dependencies': [
+    //   'error',
+    //   {
+    //     devDependencies: [
+    //       '**/test/**',
+    //       '**/tests/**',
+    //       '**/__tests__/**',
+    //       '**/*{.,_}{test,spec}.{js,jsx,ts,tsx}',
+    //       '**/jest.config.{js,ts}',
+    //       '**/jest.setup.{js,ts}',
+    //       '**/vite.*.config.{js,ts}',
+    //       '**/vite.config.*.{js,ts}',
+    //       '**/vite.config.{js,ts}',
+    //       '**/tailwind.config.{js,ts}',
+    //       '**/postcss.config.{js,ts}',
+    //       '**/cypress.config.{js,ts}',
+    //       '**/webpack.config.js',
+    //       '**/webpack.config.*.js',
+    //       '**/eslint.config.{js,ts}',
+    //       '**/.prettierrc.{js,cjs,mjs}',
+    //       '**/prettier.config.{js,cjs,mjs}',
+    //     ],
+    //   },
+    // ],
+    // 'import/no-relative-packages': 'error',
   },
 };

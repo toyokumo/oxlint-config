@@ -90,5 +90,9 @@ export default {
     'react/self-closing-comp': 'error',
     'react/rules-of-hooks': 'error',
     'react/exhaustive-deps': 'warn',
+
+    // Rules that are planned for oxlint but not yet implemented.
+    // See https://github.com/oxc-project/oxc/issues/1022
+    // 'react/function-component-definition': 'error',
   },
 } as OxlintOverride;
