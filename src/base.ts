@@ -69,6 +69,7 @@ export const baseConfig: OxlintConfig = {
     'no-sparse-arrays': 'error',
     'no-this-before-super': 'error',
     'no-undef': 'error',
+    'no-unexpected-multiline': 'error',
     'no-unreachable': 'error',
     'no-unsafe-finally': 'error',
     'no-unsafe-negation': 'error',
@@ -126,12 +127,19 @@ export const baseConfig: OxlintConfig = {
       },
     ],
     'operator-assignment': ['error', 'always'],
+    'prefer-arrow-callback': 'error',
     'prefer-exponentiation-operator': 'error',
     'prefer-object-spread': 'error',
     'prefer-promise-reject-errors': [
       'error',
       {
         allowEmptyReject: true,
+      },
+    ],
+    'prefer-regex-literals': [
+      'error',
+      {
+        disallowRedundantWrapping: true,
       },
     ],
     'no-await-in-loop': 'error',
