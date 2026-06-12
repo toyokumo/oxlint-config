@@ -9,8 +9,8 @@ describe('base', () => {
     const codes = extractRuleCodes(result.diagnostics);
 
     assert.equal(result.diagnostics.length, 22);
-    assert.ok(codes.includes('eslint-plugin-import(named)'));
-    assert.ok(codes.includes('eslint-plugin-import(no-duplicates)'));
+    assert.ok(codes.includes('import(named)'));
+    assert.ok(codes.includes('import(no-duplicates)'));
     assert.ok(codes.includes('eslint(arrow-body-style)'));
     assert.ok(codes.includes('eslint(eqeqeq)'));
     assert.ok(codes.includes('eslint(guard-for-in)'));

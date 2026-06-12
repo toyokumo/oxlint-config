@@ -9,12 +9,12 @@ describe('typescript', () => {
     const codes = extractRuleCodes(result.diagnostics);
 
     assert.equal(result.diagnostics.length, 7);
-    assert.ok(codes.includes('typescript-eslint(consistent-type-imports)'));
-    assert.ok(codes.includes('typescript-eslint(no-explicit-any)'));
-    assert.ok(codes.includes('typescript-eslint(array-type)'));
-    assert.ok(codes.includes('typescript-eslint(no-non-null-assertion)'));
-    assert.ok(codes.includes('typescript-eslint(no-require-imports)'));
-    assert.ok(codes.includes('typescript-eslint(no-empty-object-type)'));
+    assert.ok(codes.includes('typescript(consistent-type-imports)'));
+    assert.ok(codes.includes('typescript(no-explicit-any)'));
+    assert.ok(codes.includes('typescript(array-type)'));
+    assert.ok(codes.includes('typescript(no-non-null-assertion)'));
+    assert.ok(codes.includes('typescript(no-require-imports)'));
+    assert.ok(codes.includes('typescript(no-empty-object-type)'));
     assert.ok(codes.includes('eslint(prefer-const)'));
   });
 });
