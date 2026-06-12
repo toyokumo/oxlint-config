@@ -12,9 +12,9 @@ describe('next', () => {
     const codes = extractRuleCodes(result.diagnostics);
 
     assert.equal(result.diagnostics.length, 4);
-    assert.ok(codes.includes('eslint-plugin-next(no-img-element)'));
-    assert.ok(codes.includes('eslint-plugin-next(no-head-element)'));
-    assert.ok(codes.includes('eslint-plugin-next(no-sync-scripts)'));
-    assert.ok(codes.includes('eslint-plugin-react(self-closing-comp)'));
+    assert.ok(codes.includes('next(no-img-element)'));
+    assert.ok(codes.includes('next(no-head-element)'));
+    assert.ok(codes.includes('next(no-sync-scripts)'));
+    assert.ok(codes.includes('react(self-closing-comp)'));
   });
 });
