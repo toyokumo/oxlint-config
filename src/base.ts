@@ -188,10 +188,10 @@ export const baseConfig: OxlintConfig = {
       },
     ],
     yoda: 'error',
+    'no-unreachable-loop': 'error',
 
     // Rules that are planned for oxlint but not yet implemented.
     // See https://github.com/oxc-project/oxc/issues/479
-    // 'no-unreachable-loop': 'error',
     // 'one-var': ['error', 'never'],
 
     // import plugin rules
