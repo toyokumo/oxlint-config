@@ -11,7 +11,7 @@ describe('react', () => {
     );
     const codes = extractRuleCodes(result.diagnostics);
 
-    assert.equal(result.diagnostics.length, 12);
+    assert.equal(result.diagnostics.length, 11);
     assert.ok(codes.includes('react(jsx-no-useless-fragment)'));
     assert.ok(codes.includes('react(self-closing-comp)'));
     assert.ok(codes.includes('react(button-has-type)'));
