@@ -36,14 +36,14 @@
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {
-    "oxfmt": "^0.44.0",
-    "oxlint": "^1.69.0",
-    "oxlint-tsgolint": "^0.20.0",
-    "typescript": "^6.0.2"
+    "oxfmt": "^0.60.0",
+    "oxlint": "^1.75.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "typescript": "^7.0.2"
   },
   "peerDependencies": {
-    "oxlint": "^1.69.0",
-    "oxlint-tsgolint": ">=0.20.0"
+    "oxlint": "^1.75.0",
+    "oxlint-tsgolint": ">=7.0.2001"
   },
   "engines": {
     "node": ">=22"
